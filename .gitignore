@@ -1,0 +1,41 @@
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+
+# ML/data artifacts
+/datasets/
+/data/
+/checkpoints/
+/weights/
+/models/
+/outputs/
+/runs/
+/wandb/
+/logs/
+/tmp/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.zip
+
+# OS/editor
+.DS_Store
+.vscode/
